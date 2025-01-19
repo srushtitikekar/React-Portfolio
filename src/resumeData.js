@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl":"https://github.com/srushtitikekar",
-  "name": "Srushti Sameer Tikekar",
-  "role": "Data Scientist and AI Researcher",
+  "name": "Srushti Tikekar",
+  "role": "Data Scientist and Machine Learning Engineer",
   "linkedinId":"linkedin.com/in/srushti-tikekar",
   "email": "stikeka@g.clemson.edu",
   "roleDescription": "Passionate about leveraging AI and machine learning to build accessible and impactful solutions for diverse domains.",
@@ -23,7 +23,7 @@ let resumeData = {
   "education":[
     {
       "UniversityName":"Clemson University",
-      "specialization":"Master of Science in Computer Science",
+      "specialization":"Master of Science in Computer Science (Concentration in Data Science and Machine Learning)",
       "MonthOfPassing":"Dec",
       "YearOfPassing":"2024",
       "Achievements":"GPA: 3.83/4.0"
@@ -80,22 +80,29 @@ let resumeData = {
     { "skillname":"GANs" }
   ],
   "portfolio":[
+
+    {
+      "name":"Visualization of NHANES Dataset on Health Indicators of Lifestyle Habits",
+      "description":"Visualized the impact of physical exercise on health indicators by age and gender, aiding policymakers and individuals in enhancing health through lifestyle adjustments.",
+      "imgurl":"images/portfolio/nhanes.jpg",
+      "link":""
+    },
     {
       "name":"Generative Adversarial Networks (GANs)",
       "description":"Trained GANs for image synthesis with improved evaluation metrics.",
-      "imgurl":"images/portfolio/gan.jpg",
+      "imgurl":"images/GenAI.webp",
       "link":"https://github.com/srushtitikekar/srushtitikekar/blob/main/Generative%20Adversarial%20Network/Readme_1.md"
     },
     {
       "name":"BERT Model Optimization",
       "description":"Fine-tuned transformer models for Q&A tasks.",
-      "imgurl":"images/portfolio/bert.jpg",
+      "imgurl":"images/portfolio/bert.webp",
       "link":"https://github.com/srushtitikekar/srushtitikekar/blob/main/BERT/Readme_.md"
     },
     {
       "name":"LSTM/GRU for Video Captioning",
       "description":"Developed sequence-to-sequence models for video captioning.",
-      "imgurl":"images/portfolio/lstm.jpg",
+      "imgurl":"images/portfolio/lstm_gru.webp",
       "link":"https://github.com/srushtitikekar/srushtitikekar/blob/main/Video%20Caption%20Generation-%20seq2seq/readm.md"
     }
   ],
